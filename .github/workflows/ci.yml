@@ -14,7 +14,9 @@ jobs:
         uses: actions/checkout@v4
         
       - name: Lint Code
-        run: swiftlint lint --reporter github-actions-logging
+        uses: cirruslabs/swiftlint-action@v1
+        with:
+          version: 'latest'
         continue-on-error: false
         
       - name: Build and test
