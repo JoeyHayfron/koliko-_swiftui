@@ -16,6 +16,11 @@
 			path = "koliko+";
 			sourceTree = "<group>";
 		};
+		7DBC12B82FC9F4C6007F1E41 /* .github */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = .github;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +39,7 @@
 			children = (
 				7DB9B14D2FC3CB3B00A9A0D6 /* koliko+ */,
 				7DB9B14C2FC3CB3B00A9A0D6 /* Products */,
+				7DBC12B82FC9F4C6007F1E41 /* .github */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +68,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				7DB9B14D2FC3CB3B00A9A0D6 /* koliko+ */,
+				7DBC12B82FC9F4C6007F1E41 /* .github */,
 			);
 			name = "koliko+";
 			packageProductDependencies = (
