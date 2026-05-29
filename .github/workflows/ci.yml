@@ -1,9 +1,3 @@
-#
-//  ci.yml
-//  koliko+
-//
-//  Created by Joseph Acquah on 29/05/2026.
-//
 name: SwiftUI ci
 on:
   push:
