@@ -1,5 +1,5 @@
 //
-//  kolikoApp.swift
+//  KolikoApp.swift
 //  koliko+
 //
 //  Created by Joseph Acquah on 25/05/2026.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct kolikoApp: App {
+struct KolikoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
