@@ -22,7 +22,7 @@ jobs:
       - name: Build and test
         env:
           scheme: "koliko+"
-          platform: "platform=iOS Simulator,name=Any iOS Simulator Device"
+          platform: "platform=iOS Simulator,name=iPhone 15,OS=17.2"
         run: |
           set -o pipefail
           xcodebuild test \
