@@ -26,6 +26,8 @@ jobs:
         run: |
             set -o pipefail
             SIMULATOR_ID=$(xcrun simctl list devices available | grep iPhone | head -1 | grep -E -o '[0-9A-F-]{36}')
+            echo "Using simulator: $SIMULATOR_ID"
+            xcrun simctl boot $SIMULATOR_ID || true
             xcodebuild test \
               -scheme "$scheme" \
               -destination "platform=iOS Simulator,id=$SIMULATOR_ID" \
