@@ -6,8 +6,47 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7DD70B052FCCBDD5005F10EA /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70B002FCCBDD5005F10EA /* Poppins-SemiBold.ttf */; };
+		7DD70B062FCCBDD5005F10EA /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70B022FCCBDD5005F10EA /* Poppins-Thin.ttf */; };
+		7DD70B072FCCBDD5005F10EA /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF32FCCBDD5005F10EA /* Poppins-BlackItalic.ttf */; };
+		7DD70B082FCCBDD5005F10EA /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF82FCCBDD5005F10EA /* Poppins-ExtraLight.ttf */; };
+		7DD70B0A2FCCBDD5005F10EA /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AFD2FCCBDD5005F10EA /* Poppins-Medium.ttf */; };
+		7DD70B0B2FCCBDD5005F10EA /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF72FCCBDD5005F10EA /* Poppins-ExtraBoldItalic.ttf */; };
+		7DD70B0C2FCCBDD5005F10EA /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF92FCCBDD5005F10EA /* Poppins-ExtraLightItalic.ttf */; };
+		7DD70B0D2FCCBDD5005F10EA /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AFA2FCCBDD5005F10EA /* Poppins-Italic.ttf */; };
+		7DD70B0E2FCCBDD5005F10EA /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70B032FCCBDD5005F10EA /* Poppins-ThinItalic.ttf */; };
+		7DD70B0F2FCCBDD5005F10EA /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AFC2FCCBDD5005F10EA /* Poppins-LightItalic.ttf */; };
+		7DD70B102FCCBDD5005F10EA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AFF2FCCBDD5005F10EA /* Poppins-Regular.ttf */; };
+		7DD70B112FCCBDD5005F10EA /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF52FCCBDD5005F10EA /* Poppins-BoldItalic.ttf */; };
+		7DD70B122FCCBDD5005F10EA /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF22FCCBDD5005F10EA /* Poppins-Black.ttf */; };
+		7DD70B132FCCBDD5005F10EA /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AFB2FCCBDD5005F10EA /* Poppins-Light.ttf */; };
+		7DD70B142FCCBDD5005F10EA /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70B012FCCBDD5005F10EA /* Poppins-SemiBoldItalic.ttf */; };
+		7DD70B152FCCBDD5005F10EA /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AFE2FCCBDD5005F10EA /* Poppins-MediumItalic.ttf */; };
+		7DD70B162FCCBDD5005F10EA /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF62FCCBDD5005F10EA /* Poppins-ExtraBold.ttf */; };
+		7DD70B172FCCBDD5005F10EA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF42FCCBDD5005F10EA /* Poppins-Bold.ttf */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		7DB9B14B2FC3CB3B00A9A0D6 /* koliko+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "koliko+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD70AE22FCCBC67005F10EA /* koliko+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "koliko+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD70AF22FCCBDD5005F10EA /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		7DD70AF32FCCBDD5005F10EA /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7DD70AF42FCCBDD5005F10EA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7DD70AF52FCCBDD5005F10EA /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7DD70AF62FCCBDD5005F10EA /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7DD70AF72FCCBDD5005F10EA /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7DD70AF82FCCBDD5005F10EA /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7DD70AF92FCCBDD5005F10EA /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		7DD70AFA2FCCBDD5005F10EA /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		7DD70AFB2FCCBDD5005F10EA /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		7DD70AFC2FCCBDD5005F10EA /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		7DD70AFD2FCCBDD5005F10EA /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		7DD70AFE2FCCBDD5005F10EA /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7DD70AFF2FCCBDD5005F10EA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		7DD70B002FCCBDD5005F10EA /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		7DD70B012FCCBDD5005F10EA /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7DD70B022FCCBDD5005F10EA /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		7DD70B032FCCBDD5005F10EA /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,17 +77,27 @@
 			isa = PBXGroup;
 			children = (
 				7DB9B14D2FC3CB3B00A9A0D6 /* koliko+ */,
-				7DB9B14C2FC3CB3B00A9A0D6 /* Products */,
 				7DBC12B82FC9F4C6007F1E41 /* .github */,
+				7DD70AE22FCCBC67005F10EA /* koliko+.app */,
+				7DD70AF22FCCBDD5005F10EA /* Poppins-Black.ttf */,
+				7DD70AF32FCCBDD5005F10EA /* Poppins-BlackItalic.ttf */,
+				7DD70AF42FCCBDD5005F10EA /* Poppins-Bold.ttf */,
+				7DD70AF52FCCBDD5005F10EA /* Poppins-BoldItalic.ttf */,
+				7DD70AF62FCCBDD5005F10EA /* Poppins-ExtraBold.ttf */,
+				7DD70AF72FCCBDD5005F10EA /* Poppins-ExtraBoldItalic.ttf */,
+				7DD70AF82FCCBDD5005F10EA /* Poppins-ExtraLight.ttf */,
+				7DD70AF92FCCBDD5005F10EA /* Poppins-ExtraLightItalic.ttf */,
+				7DD70AFA2FCCBDD5005F10EA /* Poppins-Italic.ttf */,
+				7DD70AFB2FCCBDD5005F10EA /* Poppins-Light.ttf */,
+				7DD70AFC2FCCBDD5005F10EA /* Poppins-LightItalic.ttf */,
+				7DD70AFD2FCCBDD5005F10EA /* Poppins-Medium.ttf */,
+				7DD70AFE2FCCBDD5005F10EA /* Poppins-MediumItalic.ttf */,
+				7DD70AFF2FCCBDD5005F10EA /* Poppins-Regular.ttf */,
+				7DD70B002FCCBDD5005F10EA /* Poppins-SemiBold.ttf */,
+				7DD70B012FCCBDD5005F10EA /* Poppins-SemiBoldItalic.ttf */,
+				7DD70B022FCCBDD5005F10EA /* Poppins-Thin.ttf */,
+				7DD70B032FCCBDD5005F10EA /* Poppins-ThinItalic.ttf */,
 			);
-			sourceTree = "<group>";
-		};
-		7DB9B14C2FC3CB3B00A9A0D6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7DB9B14B2FC3CB3B00A9A0D6 /* koliko+.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,6 +110,7 @@
 				7DB9B1472FC3CB3B00A9A0D6 /* Sources */,
 				7DB9B1482FC3CB3B00A9A0D6 /* Frameworks */,
 				7DB9B1492FC3CB3B00A9A0D6 /* Resources */,
+				7DD70B212FCCD431005F10EA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -74,7 +124,7 @@
 			packageProductDependencies = (
 			);
 			productName = "koliko+";
-			productReference = 7DB9B14B2FC3CB3B00A9A0D6 /* koliko+.app */;
+			productReference = 7DD70AE22FCCBC67005F10EA /* koliko+.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +152,7 @@
 			mainGroup = 7DB9B1422FC3CB3B00A9A0D6;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 7DB9B14C2FC3CB3B00A9A0D6 /* Products */;
+			productRefGroup = 7DB9B1422FC3CB3B00A9A0D6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -116,10 +166,48 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD70B052FCCBDD5005F10EA /* Poppins-SemiBold.ttf in Resources */,
+				7DD70B062FCCBDD5005F10EA /* Poppins-Thin.ttf in Resources */,
+				7DD70B072FCCBDD5005F10EA /* Poppins-BlackItalic.ttf in Resources */,
+				7DD70B082FCCBDD5005F10EA /* Poppins-ExtraLight.ttf in Resources */,
+				7DD70B0A2FCCBDD5005F10EA /* Poppins-Medium.ttf in Resources */,
+				7DD70B0B2FCCBDD5005F10EA /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				7DD70B0C2FCCBDD5005F10EA /* Poppins-ExtraLightItalic.ttf in Resources */,
+				7DD70B0D2FCCBDD5005F10EA /* Poppins-Italic.ttf in Resources */,
+				7DD70B0E2FCCBDD5005F10EA /* Poppins-ThinItalic.ttf in Resources */,
+				7DD70B0F2FCCBDD5005F10EA /* Poppins-LightItalic.ttf in Resources */,
+				7DD70B102FCCBDD5005F10EA /* Poppins-Regular.ttf in Resources */,
+				7DD70B112FCCBDD5005F10EA /* Poppins-BoldItalic.ttf in Resources */,
+				7DD70B122FCCBDD5005F10EA /* Poppins-Black.ttf in Resources */,
+				7DD70B132FCCBDD5005F10EA /* Poppins-Light.ttf in Resources */,
+				7DD70B142FCCBDD5005F10EA /* Poppins-SemiBoldItalic.ttf in Resources */,
+				7DD70B152FCCBDD5005F10EA /* Poppins-MediumItalic.ttf in Resources */,
+				7DD70B162FCCBDD5005F10EA /* Poppins-ExtraBold.ttf in Resources */,
+				7DD70B172FCCBDD5005F10EA /* Poppins-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DD70B212FCCD431005F10EA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint > /dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7DB9B1472FC3CB3B00A9A0D6 /* Sources */ = {
@@ -263,9 +351,10 @@
 				DEVELOPMENT_TEAM = 3MGBT9XHCG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "koliko--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -276,6 +365,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joeacq.koliko-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -295,9 +388,10 @@
 				DEVELOPMENT_TEAM = 3MGBT9XHCG;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "koliko--Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,6 +402,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.joeacq.koliko-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;

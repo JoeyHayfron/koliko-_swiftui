@@ -1,0 +1,27 @@
+//# Rules included by default that you want to deactivate
+//disabled_rules:
+//  - trailing_whitespace
+//
+//# Rules out of the default set to opt-in to
+//opt_in_rules:
+//  - empty_count
+//  - missing_docs
+//
+//# Paths to include during linting
+//included:
+//  - YourAppName # Replace with your actual project source code folder name
+//
+//# Paths to ignore during linting
+//excluded:
+//  - Pods
+//  - Carthage
+//  - .build
+//
+//# Rule customizations
+//line_length:
+//  warning: 120
+//  error: 200
+//
+//type_body_length:
+//  - 300 # warning
+//  - 400 # error
