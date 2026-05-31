@@ -24,10 +24,10 @@ jobs:
           scheme: "koliko+"
           platform: "platform=iOS Simulator,name=iPhone 15,OS=17.2"
         run: |
-          set -o pipefail
-          xcodebuild test \
-            -scheme "$scheme" \
-            -destination "$platform" \
-            -testPlan "koliko+Tests" \
-            -enableCodeCoverage YES \
-            CODE_SIGNING_ALLOWED=NO | xcpretty
+            set -o pipefail
+            SIMULATOR_ID=$(xcrun simctl list devices available | grep iPhone | head -1 | grep -E -o '[0-9A-F-]{36}')
+            xcodebuild test \
+              -scheme "$scheme" \
+              -destination "platform=iOS Simulator,id=$SIMULATOR_ID" \
+              -enableCodeCoverage YES \
+              CODE_SIGNING_ALLOWED=NO | xcpretty
