@@ -1,5 +1,5 @@
 //
-//  koliko_Tests.swift
+//  KolikoTests.swift
 //  koliko+Tests
 //
 //  Created by Joseph Acquah on 31/05/2026.
@@ -7,7 +7,7 @@
 
 import Testing
 
-struct koliko_Tests {
+struct KolikoTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.
