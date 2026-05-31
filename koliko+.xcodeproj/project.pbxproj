@@ -27,6 +27,16 @@
 		7DD70B172FCCBDD5005F10EA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7DD70AF42FCCBDD5005F10EA /* Poppins-Bold.ttf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7DF4DBBD2FCCEA9C0052965F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DB9B1432FC3CB3B00A9A0D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DB9B14A2FC3CB3B00A9A0D6;
+			remoteInfo = "koliko+";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		7DD70AE22FCCBC67005F10EA /* koliko+.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "koliko+.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD70AF22FCCBDD5005F10EA /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
@@ -47,6 +57,7 @@
 		7DD70B012FCCBDD5005F10EA /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		7DD70B022FCCBDD5005F10EA /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		7DD70B032FCCBDD5005F10EA /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7DF4DBB92FCCEA9C0052965F /* koliko+Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "koliko+Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -60,10 +71,22 @@
 			path = .github;
 			sourceTree = "<group>";
 		};
+		7DF4DBBA2FCCEA9C0052965F /* koliko+Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "koliko+Tests";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7DB9B1482FC3CB3B00A9A0D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF4DBB62FCCEA9C0052965F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -97,6 +120,8 @@
 				7DD70B012FCCBDD5005F10EA /* Poppins-SemiBoldItalic.ttf */,
 				7DD70B022FCCBDD5005F10EA /* Poppins-Thin.ttf */,
 				7DD70B032FCCBDD5005F10EA /* Poppins-ThinItalic.ttf */,
+				7DF4DBB92FCCEA9C0052965F /* koliko+Tests.xctest */,
+				7DF4DBBA2FCCEA9C0052965F /* koliko+Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +152,29 @@
 			productReference = 7DD70AE22FCCBC67005F10EA /* koliko+.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7DF4DBB82FCCEA9C0052965F /* koliko+Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF4DBBF2FCCEA9C0052965F /* Build configuration list for PBXNativeTarget "koliko+Tests" */;
+			buildPhases = (
+				7DF4DBB52FCCEA9C0052965F /* Sources */,
+				7DF4DBB62FCCEA9C0052965F /* Frameworks */,
+				7DF4DBB72FCCEA9C0052965F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF4DBBE2FCCEA9C0052965F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7DF4DBBA2FCCEA9C0052965F /* koliko+Tests */,
+			);
+			name = "koliko+Tests";
+			packageProductDependencies = (
+			);
+			productName = "koliko+Tests";
+			productReference = 7DF4DBB92FCCEA9C0052965F /* koliko+Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -139,6 +187,10 @@
 				TargetAttributes = {
 					7DB9B14A2FC3CB3B00A9A0D6 = {
 						CreatedOnToolsVersion = 26.5;
+					};
+					7DF4DBB82FCCEA9C0052965F = {
+						CreatedOnToolsVersion = 26.5;
+						TestTargetID = 7DB9B14A2FC3CB3B00A9A0D6;
 					};
 				};
 			};
@@ -157,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				7DB9B14A2FC3CB3B00A9A0D6 /* koliko+ */,
+				7DF4DBB82FCCEA9C0052965F /* koliko+Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +237,13 @@
 				7DD70B152FCCBDD5005F10EA /* Poppins-MediumItalic.ttf in Resources */,
 				7DD70B162FCCBDD5005F10EA /* Poppins-ExtraBold.ttf in Resources */,
 				7DD70B172FCCBDD5005F10EA /* Poppins-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF4DBB72FCCEA9C0052965F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +277,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7DF4DBB52FCCEA9C0052965F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DF4DBBE2FCCEA9C0052965F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DB9B14A2FC3CB3B00A9A0D6 /* koliko+ */;
+			targetProxy = 7DF4DBBD2FCCEA9C0052965F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		7DB9B1542FC3CB3F00A9A0D6 /* Debug */ = {
@@ -417,6 +492,48 @@
 			};
 			name = Release;
 		};
+		7DF4DBC02FCCEA9C0052965F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MGBT9XHCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joeacq.koliko-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/koliko+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/koliko+";
+			};
+			name = Debug;
+		};
+		7DF4DBC12FCCEA9C0052965F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MGBT9XHCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.joeacq.koliko-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/koliko+.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/koliko+";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -434,6 +551,15 @@
 			buildConfigurations = (
 				7DB9B1572FC3CB3F00A9A0D6 /* Debug */,
 				7DB9B1582FC3CB3F00A9A0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF4DBBF2FCCEA9C0052965F /* Build configuration list for PBXNativeTarget "koliko+Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF4DBC02FCCEA9C0052965F /* Debug */,
+				7DF4DBC12FCCEA9C0052965F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

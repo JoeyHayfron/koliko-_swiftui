@@ -28,5 +28,6 @@ jobs:
           xcodebuild test \
             -scheme "$scheme" \
             -destination "$platform" \
+            -testPlan "koliko+Tests" \
             -enableCodeCoverage YES \
             CODE_SIGNING_ALLOWED=NO | xcpretty

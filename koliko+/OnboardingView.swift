@@ -6,21 +6,9 @@
 //
 import SwiftUI
 
-struct OnboardingStep {
-    let image: String
-    let tag: String
-    let title: String
-    let subtitle: String
-    let buttonIcon: String
-}
-
 struct OnboardingView: View {
-    @State private var currentStep = 0
-    
-    let steps: [OnboardingStep] = [
-        OnboardingStep(image:"onboarding-step1-content", tag: "WELCOME", title: "A library you\ncan share", subtitle: "Exclusive videos, books, and wallpapers — and easy ways to share them with the people you love.", buttonIcon: "chevron.right"),
-        OnboardingStep(image:"onboarding-step2-offline", tag: "OFFLINE", title: "Take it with you", subtitle: "Download what matters and keep watching, reading, and listening — even when you're offline.", buttonIcon: "checkmark")
-    ]
+    @StateObject private var viewModel = OnboardingViewModel()
+
     var body: some View {
         ZStack(alignment: .bottom) {
             VStack {
@@ -43,7 +31,7 @@ struct OnboardingView: View {
                 
                 
                 
-                Image(steps[currentStep].image)
+                Image(viewModel.currentStepData.image)
                     .resizable()
                     .scaledToFit()
                     .frame(maxWidth: .infinity)
@@ -53,18 +41,18 @@ struct OnboardingView: View {
                 Spacer()
                 
                 VStack(alignment: .leading, spacing: 10) {
-                    Text(steps[currentStep].tag)
+                    Text(viewModel.currentStepData.tag)
                         .font(.poppins(.semibold))
                         .foregroundColor(.blue)
                         .kerning(1.5)
                     
-                    Text(steps[currentStep].title)
+                    Text(viewModel.currentStepData.title)
                         .font(.poppins(.bold,size: 30))
                         .font(.largeTitle)
                         .foregroundColor(.black)
                         .fixedSize(horizontal: false, vertical: true)
                     
-                    Text(steps[currentStep].subtitle)
+                    Text(viewModel.currentStepData.subtitle)
                         .font(.poppins(.regular))
                         .foregroundColor(.black)
                         .padding(.top, 4)
@@ -75,8 +63,8 @@ struct OnboardingView: View {
                 
                 HStack {
                     HStack(spacing: 6) {
-                        ForEach(0..<steps.count, id:\.self) { index in
-                            if index == currentStep {
+                        ForEach(0..<viewModel.steps.count, id:\.self) { index in
+                            if index == viewModel.currentStep {
                                 Capsule()
                                     .fill(Color.blue)
                                     .frame(width: 20, height: 8)
@@ -91,13 +79,13 @@ struct OnboardingView: View {
                     Spacer()
                     
                     Button(action: {
-                        if currentStep < steps.count - 1 {
-                            currentStep += 1
+                        if viewModel.currentStep < viewModel.steps.count - 1 {
+                            viewModel.currentStep += 1
                         } else {
                             // TODO:
                         }
                     }) {
-                        Image(systemName: steps[currentStep].buttonIcon)
+                        Image(systemName: viewModel.currentStepData.buttonIcon)
                             .foregroundColor(.white)
                             .frame(width: 56, height: 56)
                             .background(.blue)
